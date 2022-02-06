@@ -1,0 +1,12 @@
+[
+    {
+        "id": 2,
+        "LessonTitle": "Limits of Sequences",
+        "LessonLecture": "https://www.youtube.com/watch?v=BOx8LRyr8mU",
+        "LessonNotes": "",
+        "LessonProblemSet": "",
+        "LessonProblemSetSolutions": "",
+        "prevLecture": "The Real Numbers",
+        "nextLecture": "Series"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "id": 13,
+        "LessonTitle": "Several Variable Differential Calculus",
+        "LessonLecture": "https://www.youtube.com/watch?v=BOx8LRyr8mU",
+        "LessonNotes": "",
+        "LessonProblemSet": "",
+        "LessonProblemSetSolutions": "",
+        "prevLecture": "Fourier Series",
+        "nextLecture": "Lebesgue Measure"
+    }
+]

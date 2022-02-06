@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "LessonTitle": "Complex Numbers"
+    },
+    {
+        "id": 2,
+        "LessonTitle": "Analytic Functions"
+    },
+    {
+        "id": 3,
+        "LessonTitle": "Elementary Functions"
+    },
+    {
+        "id": 4,
+        "LessonTitle": "Integrals"
+    },
+    {
+        "id": 5,
+        "LessonTitle": "Series"
+    },
+    {
+        "id": 6,
+        "LessonTitle": "Residues and Poles"
+    },
+    {
+        "id": 7,
+        "LessonTitle": "Applications of Residues"
+    },
+    {
+        "id": 8,
+        "LessonTitle": "Mapping by Elementary Functions"
+    },
+    {
+        "id": 9,
+        "LessonTitle": "Conformal Mapping"
+    },
+    {
+        "id": 10,
+        "LessonTitle": "Applications of Conformal Mapping"
+    },
+    {
+        "id": 11,
+        "LessonTitle": "The Schwarz-Christoffel Transformation"
+    },
+    {
+        "id": 12,
+        "LessonTitle": "Poisson Integral Formulas"
+    }   
+  ]

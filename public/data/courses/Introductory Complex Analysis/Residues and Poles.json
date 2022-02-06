@@ -1,0 +1,12 @@
+[
+    {
+        "id": 6,
+        "LessonTitle": "Residues and Poles",
+        "LessonLecture": "https://www.youtube.com/watch?v=BOx8LRyr8mU",
+        "LessonNotes": "https://v1.tailwindcss.com/components/buttons#3-d",
+        "LessonProblemSet": "",
+        "LessonProblemSetSolutions": "",
+        "prevLecture": "Series",
+        "nextLecture": "Applications of Residues"
+    }
+]

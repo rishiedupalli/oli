@@ -1,0 +1,12 @@
+[
+    {
+        "id": 2,
+        "LessonTitle": "Analytic Functions",
+        "LessonLecture": "https://www.youtube.com/watch?v=BOx8LRyr8mU",
+        "LessonNotes": "https://v1.tailwindcss.com/components/buttons#3-d",
+        "LessonProblemSet": "",
+        "LessonProblemSetSolutions": "",
+        "prevLecture": "Complex Numbers",
+        "nextLecture": "Elementary Functions"
+    }
+]

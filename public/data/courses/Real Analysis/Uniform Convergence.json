@@ -1,0 +1,12 @@
+[
+    {
+        "id": 10,
+        "LessonTitle": "Uniform Convergence",
+        "LessonLecture": "https://www.youtube.com/watch?v=BOx8LRyr8mU",
+        "LessonNotes": "",
+        "LessonProblemSet": "",
+        "LessonProblemSetSolutions": "",
+        "prevLecture": "Continuous Functions on Metric Spaces",
+        "nextLecture": "Power Series"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "id": 11,
+        "LessonTitle": "Power Series",
+        "LessonLecture": "https://www.youtube.com/watch?v=BOx8LRyr8mU",
+        "LessonNotes": "",
+        "LessonProblemSet": "",
+        "LessonProblemSetSolutions": "",
+        "prevLecture": "Uniform Convergence",
+        "nextLecture": "Fourier Series"
+    }
+]

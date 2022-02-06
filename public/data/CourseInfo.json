@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "title": "Real Analysis",
+      "textbooks": "Rudin - Principles of Mathematical Analysis; Tao - Volumes on Analysis",
+      "description": "calculus but with proofs"
+    },
+    {
+      "id": 2,
+      "title": "Introductory Complex Analysis",
+      "textbooks": "Needham - Visual Complex Analysis; Churchill - Complex Variables with Applications",
+      "description": "calculus but with complex numbers"
+    },
+    {
+      "id": 3,
+      "title": "Abstract Algebra",
+      "textbooks": "Artin - Algebra; Dummit & Foote - Abstract Algebra",
+      "description": "The study of algebraic structures."
+    }
+  ]

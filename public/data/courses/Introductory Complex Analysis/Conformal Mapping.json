@@ -1,0 +1,12 @@
+[
+    {
+        "id": 8,
+        "LessonTitle": "Conformal Mapping",
+        "LessonLecture": "https://www.youtube.com/watch?v=BOx8LRyr8mU",
+        "LessonNotes": "https://v1.tailwindcss.com/components/buttons#3-d",
+        "LessonProblemSet": "",
+        "LessonProblemSetSolutions": "",
+        "prevLecture": "Mapping by Elementary Functions",
+        "nextLecture": "Applications of Conformal Mapping"
+    }
+]

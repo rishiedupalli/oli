@@ -1,0 +1,12 @@
+[
+    {
+        "id": 3,
+        "LessonTitle": "Series",
+        "LessonLecture": "https://www.youtube.com/watch?v=BOx8LRyr8mU",
+        "LessonNotes": "",
+        "LessonProblemSet": "",
+        "LessonProblemSetSolutions": "",
+        "prevLecture": "Limits of Sequences",
+        "nextLecture": "Infinite Sets"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "id": 11,
+        "LessonTitle": "The Schwarz-Christoffel Transformation",
+        "LessonLecture": "https://www.youtube.com/watch?v=BOx8LRyr8mU",
+        "LessonNotes": "https://v1.tailwindcss.com/components/buttons#3-d",
+        "LessonProblemSet": "",
+        "LessonProblemSetSolutions": "",
+        "prevLecture": "Applications of Conformal Mapping",
+        "nextLecture": "Poisson Integral Formulas"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "id": 10,
+        "LessonTitle": "Applications of Conformal Mapping",
+        "LessonLecture": "https://www.youtube.com/watch?v=BOx8LRyr8mU",
+        "LessonNotes": "https://v1.tailwindcss.com/components/buttons#3-d",
+        "LessonProblemSet": "",
+        "LessonProblemSetSolutions": "",
+        "prevLecture": "Conformal Mapping",
+        "nextLecture": "The Schwarz-Christoffel Transformation"
+    }
+]
