@@ -1,7 +1,9 @@
 import Link from 'next/link'
 
 function Courses( {courses }) {
-    return <><h1 className="text-8xl text-green-300 font-bold text-center">Course Offerings</h1>
+    return <>
+    <h1 className="text-8xl text-green-300 font-bold text-center">Course Offerings</h1>
+    <Link href="/courses/CourseInfo"><a><h2 className="text-6xl text-green-300 font-bold text-center">Advanced Search</h2></a></Link>
         {
             courses.map(course => {
                 return (

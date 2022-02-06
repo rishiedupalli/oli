@@ -2,19 +2,25 @@
     {
       "id": 1,
       "title": "Real Analysis",
-      "textbooks": "Rudin - Principles of Mathematical Analysis; Tao - Volumes on Analysis",
-      "description": "calculus but with proofs"
+      "prereq": "Multivariable Calculus, Differential Equations, Linear Algebra",
+      "textbooks": "(R) Tao - Volumes on Analysis; (A) Rudin - Principles of Mathematical Analysis",
+      "description": "Real Analysis is genrally the first course one takes in mathematical analysis. It offers a rigorous study of the results of Calculus.",
+      "topics": "The Real Numbers, Sets, Differentiation, Limits, Continuity, Integration, Metric Spaces, Riemann Integral, Lebesgue Integration Theory, General Topology"
     },
     {
       "id": 2,
       "title": "Introductory Complex Analysis",
-      "textbooks": "Needham - Visual Complex Analysis; Churchill - Complex Variables with Applications",
-      "description": "calculus but with complex numbers"
+      "prereq": "Multivariable Calculus, Differential Equations, Linear Algebra, Real Analysis",
+      "textbooks": "(R) Brown & Churchill - Complex Variables and Applications; (A) Needham - Visual Complex Analysis",
+      "description": "Complex Analysis is a beautiful subject concerning the study of functions of a complex variable and their applications.",
+      "topics": "Complex Numbers, Analytic Functions, Complex Integrals & Complex Derivatives, Conformal Mappings"
     },
     {
       "id": 3,
       "title": "Abstract Algebra",
-      "textbooks": "Artin - Algebra; Dummit & Foote - Abstract Algebra",
-      "description": "The study of algebraic structures."
+      "prereq": "Multivariable Calculus, Differential Equations, Linear Algebra, Real Analysis",
+      "textbooks": "(R) Artin - Algebra; (A) Dummit & Foote - Abstract Algebra",
+      "description": "The study of algebraic structures.",
+      "topics": "Matrices, Group Theory, Vector Spaces, Linear Operators, Symmetry, Bilinear Forms, Rings, Fields, Galois Theory"
     }
   ]
