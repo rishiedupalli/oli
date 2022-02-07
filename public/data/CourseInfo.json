@@ -5,7 +5,7 @@
       "level": "Undergraduate",
       "prereq": "Multivariable Calculus, Differential Equations, Linear Algebra",
       "textbooks": "(R) Tao - Volumes on Analysis; (A) Rudin - Principles of Mathematical Analysis",
-      "description": "Real Analysis is genrally the first course one takes in mathematical analysis. It offers a rigorous study of the results of Calculus.",
+      "description": "Real Analysis is generally the first course one takes in mathematical analysis. It offers a rigorous study of the results of Calculus.",
       "topics": "The Real Numbers, Sets, Differentiation, Limits, Continuity, Integration, Metric Spaces, Riemann Integral, Lebesgue Integration Theory, General Topology"
     },
     {

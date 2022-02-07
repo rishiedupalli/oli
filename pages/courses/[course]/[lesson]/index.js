@@ -10,8 +10,8 @@ function Lesson({ lessonData }) {
             {lessonData.map(data => {
                 return (
                     <div key={data.id}>
-                        <a href={`/courses/${course}`}><h1 className="font-bold text-5xl text-green-300 text-center my-3 mx-3">{course}</h1></a>
-                        <h2 className="font-bold text-3xl text-green-300 text-center my-3 mx-3">Lesson #{data.id}: {data.LessonTitle}</h2>
+                        <a href={`/courses/${course}`}><h1 className="font-bold text-5xl text-red-600 text-center my-3 mx-3">{course}</h1></a>
+                        <h2 className="font-bold text-3xl text-red-600 text-center my-3 mx-3">Lesson #{data.id}: {data.LessonTitle}</h2>
                         <div className="flex h-screen justify-center mx-3 my-3">
                             <div className="justify-center">
                                 <ReactPlayer url={data.LessonLecture} controls />

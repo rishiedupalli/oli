@@ -8,7 +8,7 @@ function Course({ courseData }) {
     return (
         <>
         <div>
-            <h1 className="font-bold text-4xl text-green-300 text-center">Lessons for {courseTitle}</h1>
+            <h1 className="font-bold text-4xl text-red-600 text-center">Lessons for {courseTitle}</h1>
             <br />
             {courseData.map(lesson => {
                 return (

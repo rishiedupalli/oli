@@ -4,12 +4,13 @@ import data from '../public/data/CourseInfo.json';
 
 const SearchTable = () => {
     const [searchTerm, setSearchTerm] = useState("");
+
     return (
         <div>
             <div className="flex rounded items-center justify-center p-5">
-                <input className="px-4 py-2 w-3/4 text-center border-black border-2 text-black" type="text" placeholder="Search for Information about our Courses" onChange={(e) => {setSearchTerm(e.target.value)}} />
+                <input className="px-4 py-2 w-3/4 text-center border-black border-2 text-black" type="text" placeholder="Search our courses" onChange={(e) => {setSearchTerm(e.target.value)}} />
             </div>
-            <div className='p-5'>
+            <div className='p-5 flex rounded items-center justify-center'>
                 <table className='table-fixed border-collapse p-5'>
                     <thead>
                         <tr>
@@ -25,7 +26,7 @@ const SearchTable = () => {
                         {data.filter(val => {
                             if (searchTerm === '') {
                                 return val;
-                            } else if (val.title.toLowerCase().includes(searchTerm.toLowerCase()) || val.description.toLowerCase().includes(searchTerm.toLowerCase()) || val.textbooks.toLowerCase().includes(searchTerm.toLowerCase()) || val.prereq.toLowerCase().includes(searchTerm.toLowerCase()) || val.topics.toLowerCase().includes(searchTerm.toLowerCase())) {
+                            } else if (val.title.toLowerCase().includes(searchTerm.toLowerCase()) || val.description.toLowerCase().includes(searchTerm.toLowerCase()) || val.textbooks.toLowerCase().includes(searchTerm.toLowerCase()) || val.topics.toLowerCase().includes(searchTerm.toLowerCase())) {
                                 return val;
                             }
                         }).map(course => (
