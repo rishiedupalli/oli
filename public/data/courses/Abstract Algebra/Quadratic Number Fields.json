@@ -1,0 +1,12 @@
+[
+    {
+        "id": 13,
+        "LessonTitle": "Quadratic Number Fields",
+        "LessonLecture": "",
+        "LessonNotes": "",
+        "LessonProblemSet": "",
+        "LessonProblemSetSolutions": "",
+        "prevLecture": "Factoring",
+        "nextLecture": "Linear Algebra in a Ring"
+    }
+]

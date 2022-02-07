@@ -1,0 +1,12 @@
+[
+    {
+        "id": 7,
+        "LessonTitle": "More Group Theory",
+        "LessonLecture": "",
+        "LessonNotes": "",
+        "LessonProblemSet": "",
+        "LessonProblemSetSolutions": "",
+        "prevLecture": "Symmetry",
+        "nextLecture": "Bilinear Forms"
+    }
+]

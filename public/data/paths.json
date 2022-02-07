@@ -133,5 +133,85 @@
         "id": 28,
         "path": "Lebesgue integration",
         "parent": "Real Analysis"
+    },
+    {
+        "id": 29,
+        "path": "Matrices",
+        "parent": "Abstract Algebra"
+    },
+    {
+        "id": 30,
+        "path": "Groups",
+        "parent": "Abstract Algebra"
+    },
+    {
+        "id": 31,
+        "path": "Vector Spaces",
+        "parent": "Abstract Algebra"
+    },
+    {
+        "id": 32,
+        "path": "Linear Operators",
+        "parent": "Abstract Algebra"
+    },
+    {
+        "id": 33,
+        "path": "Applications of Linear Operators",
+        "parent": "Abstract Algebra"
+    },
+    {
+        "id": 34,
+        "path": "Symmetry",
+        "parent": "Abstract Algebra"
+    },
+    {
+        "id": 35,
+        "path": "More Group Theory",
+        "parent": "Abstract Algebra"
+    },
+    {
+        "id": 36,
+        "path": "Bilinear Forms",
+        "parent": "Abstract Algebra"
+    },
+    {
+        "id": 37,
+        "path": "Linear Groups",
+        "parent": "Abstract Algebra"
+    },
+    {
+        "id": 38,
+        "path": "Group Representations",
+        "parent": "Abstract Algebra"
+    },
+    {
+        "id": 39,
+        "path": "Rings",
+        "parent": "Abstract Algebra"
+    },
+    {
+        "id": 40,
+        "path": "Factoring",
+        "parent": "Abstract Algebra"
+    },
+    {
+        "id": 41,
+        "path": "Quadratic Number Fields",
+        "parent": "Abstract Algebra"
+    },
+    {
+        "id": 42,
+        "path": "Linear Algebra in a Ring",
+        "parent": "Abstract Algebra"
+    },
+    {
+        "id": 43,
+        "path": "Fields",
+        "parent": "Abstract Algebra"
+    },
+    {
+        "id": 44,
+        "path": "Galois Theory",
+        "parent": "Abstract Algebra"
     }
 ]

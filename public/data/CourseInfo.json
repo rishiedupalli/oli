@@ -2,6 +2,7 @@
     {
       "id": 1,
       "title": "Real Analysis",
+      "level": "Undergraduate",
       "prereq": "Multivariable Calculus, Differential Equations, Linear Algebra",
       "textbooks": "(R) Tao - Volumes on Analysis; (A) Rudin - Principles of Mathematical Analysis",
       "description": "Real Analysis is genrally the first course one takes in mathematical analysis. It offers a rigorous study of the results of Calculus.",
@@ -10,6 +11,7 @@
     {
       "id": 2,
       "title": "Introductory Complex Analysis",
+      "level": "Undergraduate",
       "prereq": "Multivariable Calculus, Differential Equations, Linear Algebra, Real Analysis",
       "textbooks": "(R) Brown & Churchill - Complex Variables and Applications; (A) Needham - Visual Complex Analysis",
       "description": "Complex Analysis is a beautiful subject concerning the study of functions of a complex variable and their applications.",
@@ -18,6 +20,7 @@
     {
       "id": 3,
       "title": "Abstract Algebra",
+      "level": "Undergraduate",
       "prereq": "Multivariable Calculus, Differential Equations, Linear Algebra, Real Analysis",
       "textbooks": "(R) Artin - Algebra; (A) Dummit & Foote - Abstract Algebra",
       "description": "The study of algebraic structures.",

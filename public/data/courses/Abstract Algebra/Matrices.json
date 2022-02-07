@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "LessonTitle": "Matrices",
+        "LessonLecture": "",
+        "LessonNotes": "",
+        "LessonProblemSet": "",
+        "LessonProblemSetSolutions": "",
+        "prevLecture": "Galois Theory",
+        "nextLecture": "Groups"
+    }
+]

@@ -14,6 +14,7 @@ const SearchTable = () => {
                     <thead>
                         <tr>
                             <th className='text-left border-2 p-2'>Course Title</th>
+                            <th className='text-left border-2 p-2'>Level</th>
                             <th className='text-left border-2 p-2'>Prerequisite</th>
                             <th className='text-left border-2 p-2'>Textbooks</th>
                             <th className='text-left border-2 p-2'>Course Description</th>
@@ -30,6 +31,7 @@ const SearchTable = () => {
                         }).map(course => (
                             <tr key={course.id}>
                                 <td className='border-2 p-2'><a href={`/courses/${course.title}`}>{course.title}</a></td>
+                                <td className='border-2 p-2'>{course.level}</td>
                                 <td className='border-2 p-2'>{course.prereq}</td>
                                 <td className='border-2 p-2'>{course.textbooks}</td>
                                 <td className='border-2 p-2'>{course.description}</td>

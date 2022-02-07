@@ -1,0 +1,12 @@
+[
+    {
+        "id": 11,
+        "LessonTitle": "Rings",
+        "LessonLecture": "",
+        "LessonNotes": "",
+        "LessonProblemSet": "",
+        "LessonProblemSetSolutions": "",
+        "prevLecture": "Group Representations",
+        "nextLecture": "Factoring"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "id": 6,
+        "LessonTitle": "Symmetry",
+        "LessonLecture": "",
+        "LessonNotes": "",
+        "LessonProblemSet": "",
+        "LessonProblemSetSolutions": "",
+        "prevLecture": "Applications of Linear Operators",
+        "nextLecture": "More Group Theory"
+    }
+]

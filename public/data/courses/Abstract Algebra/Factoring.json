@@ -1,0 +1,12 @@
+[
+    {
+        "id": 12,
+        "LessonTitle": "Factoring",
+        "LessonLecture": "",
+        "LessonNotes": "",
+        "LessonProblemSet": "",
+        "LessonProblemSetSolutions": "",
+        "prevLecture": "Rings",
+        "nextLecture": "Quadratic Number Fields"
+    }
+]

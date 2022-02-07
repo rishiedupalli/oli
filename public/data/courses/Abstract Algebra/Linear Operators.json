@@ -1,0 +1,12 @@
+[
+    {
+        "id": 4,
+        "LessonTitle": "Linear Operators",
+        "LessonLecture": "",
+        "LessonNotes": "",
+        "LessonProblemSet": "",
+        "LessonProblemSetSolutions": "",
+        "prevLecture": "Vector Spaces",
+        "nextLecture": "Applications of Linear Operators"
+    }
+]

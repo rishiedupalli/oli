@@ -1,0 +1,12 @@
+[
+    {
+        "id": 2,
+        "LessonTitle": "Groups",
+        "LessonLecture": "",
+        "LessonNotes": "",
+        "LessonProblemSet": "",
+        "LessonProblemSetSolutions": "",
+        "prevLecture": "Matrices",
+        "nextLecture": "Vector Spaces"
+    }
+]
