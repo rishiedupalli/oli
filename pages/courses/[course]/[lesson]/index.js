@@ -1,18 +1,19 @@
  import ReactPlayer from "react-player";
 import Link from 'next/link'
 import { useRouter } from "next/router";
+import motion from 'framer-motion';
 
 function Lesson({ lessonData }) {
     const course = useRouter().query.course
 
     return (
-        <>
+        <div className="bg-gray-100">
             {lessonData.map(data => {
                 return (
                     <div key={data.id}>
-                        <a href={`/courses/${course}`}><h1 className="font-bold text-5xl text-red-600 text-center my-3 mx-3">{course}</h1></a>
-                        <h2 className="font-bold text-3xl text-red-600 text-center my-3 mx-3">Lesson #{data.id}: {data.LessonTitle}</h2>
-                        <div className="flex h-screen justify-center mx-3 my-3">
+                        <a href={`/courses/${course}`}><h1 className="font-bold text-5xl text-red-600 text-center px-4 py-4">{course}</h1></a>
+                        <h2 className="font-bold text-3xl text-red-600 text-center px-2 py-2">Lesson #{data.id}: {data.LessonTitle}</h2>
+                        <div className="flex h-screen justify-center mx-3">
                             <div className="justify-center">
                                 <ReactPlayer url={data.LessonLecture} controls />
                                     <div className="justify-center flex my-3">
@@ -41,7 +42,7 @@ function Lesson({ lessonData }) {
                                         <Link href={`/courses/${course}/${data.nextLecture}`}>
                                             <a>
                                                 <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r">
-                                                    Next
+                                                        Next
                                                 </button>
                                             </a>
                                         </Link>
@@ -53,7 +54,7 @@ function Lesson({ lessonData }) {
             })
             }
 
-        </>
+        </div>
     )
 }
 

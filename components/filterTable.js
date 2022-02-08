@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import data from '../public/data/CourseInfo.json';
+import { motion } from "framer-motion"
 
 const SearchTable = () => {
     const [searchTerm, setSearchTerm] = useState("");
@@ -11,7 +12,7 @@ const SearchTable = () => {
                 <input className="px-4 py-2 w-3/4 text-center border-black border-2 text-black" type="text" placeholder="Search our courses" onChange={(e) => {setSearchTerm(e.target.value)}} />
             </div>
             <div className='p-5 flex rounded items-center justify-center'>
-                <table className='table-fixed border-collapse p-5'>
+                <motion.table className='table-fixed border-collapse p-5'>
                     <thead>
                         <tr>
                             <th className='text-left border-2 p-2'>Course Title</th>
@@ -31,16 +32,16 @@ const SearchTable = () => {
                             }
                         }).map(course => (
                             <tr key={course.id}>
-                                <td className='border-2 p-2'><a href={`/courses/${course.title}`}>{course.title}</a></td>
-                                <td className='border-2 p-2'>{course.level}</td>
-                                <td className='border-2 p-2'>{course.prereq}</td>
-                                <td className='border-2 p-2'>{course.textbooks}</td>
-                                <td className='border-2 p-2'>{course.description}</td>
-                                <td className='border-2 p-2'>{course.topics}</td>
+                                <motion.td whileHover={{ scale: 1.1 }} className='border-2 p-2 font-extrabold text-center'><a href={`/courses/${course.title}`}>{course.title}</a></motion.td>
+                                <td className='border-2 p-2 text-left'>{course.level}</td>
+                                <td className='border-2 p-2 text-left'>{course.prereq}</td>
+                                <td className='border-2 p-2 text-left'>{course.textbooks}</td>
+                                <td className='border-2 p-2 text-left'>{course.description}</td>
+                                <td className='border-2 p-2 text-left'>{course.topics}</td>
                             </tr> 
                         ))}
                     </tbody>
-                </table>
+                </motion.table>
             </div>
         </div>
     )

@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center w-screen h-screen py-2 bg-gray-100">
+    <div className="flex flex-col items-center justify-center h-screen py-2 bg-gray-100">
       <Head>
         <title>The Open Learning Initiative</title>
         <link rel="icon" href="/favicon.ico" />
@@ -15,7 +15,6 @@ export default function Home() {
             The Open Learning Initiative
           </a>
         </h1>
-
       </main>
 
       <footer className="flex items-center justify-center w-full h-24 border-t">

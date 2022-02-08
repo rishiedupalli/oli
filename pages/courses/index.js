@@ -1,11 +1,14 @@
 import SearchTable from '../../components/filterTable';
+import { motion } from "framer-motion";
 
 function CourseInfo () {
     return (
-        <div className="flex flex-col items-center min-h-screen py-2">
-            <h1 className='text-8xl text-red-600 py-5 font-bold'>Our Courses</h1>
-            <SearchTable />
-        </div>
+        <motion.div className="flex flex-col items-center h-screen bg-gray-100">
+            <motion.h1 className='text-8xl text-red-600 font-bold'>Our Courses</motion.h1>
+            <motion.div className="w-3/4">
+                <SearchTable />
+            </motion.div>
+        </motion.div>
     )
 }
 
