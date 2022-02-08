@@ -1,49 +1,59 @@
- import ReactPlayer from "react-player";
+import ReactPlayer from "react-player";
 import Link from 'next/link'
 import { useRouter } from "next/router";
-import motion from 'framer-motion';
+import { motion } from 'framer-motion';
+import Head from "next/head";
 
 function Lesson({ lessonData }) {
     const course = useRouter().query.course
 
     return (
         <div className="bg-gray-100">
+            <Head>
+                {lessonData.map(lesson => {
+                    return (
+                        <title key={lesson.id}>{`${course} #${lesson.id}: ${lesson.LessonTitle}`}</title>
+                    )
+                })}
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
+
             {lessonData.map(data => {
                 return (
                     <div key={data.id}>
-                        <a href={`/courses/${course}`}><h1 className="font-bold text-5xl text-red-600 text-center px-4 py-4">{course}</h1></a>
-                        <h2 className="font-bold text-3xl text-red-600 text-center px-2 py-2">Lesson #{data.id}: {data.LessonTitle}</h2>
-                        <div className="flex h-screen justify-center mx-3">
+                        <a href={`/courses/${course}`}><motion.h1 whileHover={{ scale: 1.1 }} className="font-bold text-4xl hover:font-extrabold text-red-600 text-center py-4">{course}</motion.h1></a>
+                        <h2 className=" text-2xl text-red-600 text-center px-2 mb-2">Lesson #{data.id}: {data.LessonTitle}</h2>
+                        <div className="flex h-screen justify-center ">
                             <div className="justify-center">
                                 <ReactPlayer url={data.LessonLecture} controls />
                                     <div className="justify-center flex my-3">
                                         <Link href={`/courses/${course}/${data.prevLecture}`}>
                                             <a>
-                                                <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l">
+                                                <motion.button whileHover={{ scale: 1.1 }} class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l">
                                                     Prev
-                                                </button>
+                                                </motion.button>
                                             </a>
                                         </Link>
                                             <a href={data.LessonNotes} rel="noopener noreferrer" target="_blank">
-                                                <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4">
+                                                <motion.button whileHover={{ scale: 1.1 }} class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4">
                                                     Notes
-                                                </button>
+                                                </motion.button>
                                             </a>
                                             <a href={data.LessonProblemSet} rel="noopener noreferrer" target="_blank">
-                                                <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4">
+                                                <motion.button whileHover={{ scale: 1.1 }} class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4">
                                                     Problem Set
-                                                </button>
+                                                </motion.button>
                                             </a>
                                             <a href={data.LessonProblemSetSolutions} rel="noopener noreferrer" target="_blank">
-                                                <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4">
+                                                <motion.button whileHover={{ scale: 1.1 }} class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4">
                                                     Problem Set Solutions
-                                                </button>
+                                                </motion.button>
                                             </a>
                                         <Link href={`/courses/${course}/${data.nextLecture}`}>
                                             <a>
-                                                <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r">
+                                                <motion.button whileHover={{ scale: 1.1 }} class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r">
                                                         Next
-                                                </button>
+                                                </motion.button>
                                             </a>
                                         </Link>
                                     </div>

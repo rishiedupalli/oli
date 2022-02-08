@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
+import Head from 'next/head'
 
 function Course({ courseData }) {
 
@@ -8,6 +9,12 @@ function Course({ courseData }) {
     const courseTitle = router.query.course
     return (
         <div className="bg-gray-100 h-screen">
+
+            <Head>
+                <title>{`Lectures on ${courseTitle}`}</title>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
+
             <div>
                 <h1 className="font-bold text-4xl text-red-600 text-center py-4">Lessons for {courseTitle}</h1>
                 <br />
@@ -17,7 +24,7 @@ function Course({ courseData }) {
                                 <motion.ul key={lesson.id} className="flex justify-center items-center text-left">
                                     <Link href={`${courseTitle}/${lesson.LessonTitle}`}>
                                         <a>
-                                            <motion.li whileHover={{scale : 1.1}} className="text-2xl">{lesson.LessonTitle}</motion.li>
+                                            <motion.li whileHover={{scale : 1.1}} className="text-2xl hover:font-extrabold">{lesson.LessonTitle}</motion.li>
                                         </a>
                                     </Link>
                                 </motion.ul>
