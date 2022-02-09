@@ -8,7 +8,7 @@ function Course({ courseData }) {
     const router = useRouter()
     const courseTitle = router.query.course
     return (
-        <div className="bg-gray-100 h-screen">
+        <div className="bg-gray-100 h-screen w-screen">
 
             <Head>
                 <title>{`Lectures on ${courseTitle}`}</title>

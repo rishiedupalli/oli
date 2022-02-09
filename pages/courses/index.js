@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 function CourseInfo () {
     return (
 
-        <motion.div className="flex flex-col items-center h-screen bg-gray-100">
+        <motion.div className="flex flex-col items-center h-screen w-screen bg-gray-100">
             <Head>
                 <title>Courses</title>
                 <link rel="icon" href="/favicon.ico" />

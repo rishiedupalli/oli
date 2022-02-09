@@ -8,7 +8,7 @@ function Lesson({ lessonData }) {
     const course = useRouter().query.course
 
     return (
-        <div className="bg-gray-100">
+        <div className="bg-gray-100 w-screen">
             <Head>
                 {lessonData.map(lesson => {
                     return (

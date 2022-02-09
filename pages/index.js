@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center h-screen py-2 bg-gray-100">
+    <div className="flex flex-col items-center justify-center h-screen w-screen py-2 bg-gray-100">
       <Head>
         <title>The Open Learning Initiative</title>
         <link rel="icon" href="/favicon.ico" />
