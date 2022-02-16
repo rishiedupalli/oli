@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-  <div className="bg-gray-100">
+  <div className="bg-gray-100 w-full h-screen">
     <footer className="flex items-center justify-center w-full h-24 border-t">
         <ul>
           <li className="flex items-center justify-center">Rishi Edupalli {new Date().getFullYear().toString()}</li>
